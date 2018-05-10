@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>goldData</title>
+	<link rel="stylesheet" type="text/css" href="css/goldData.css">
+</head>
+<body>
+	<div class="goldData">
+
+		<!--样式-->
+		<div class="content" id="content">
+			
+		</div>
+
+		<!--编辑-->
+		<div class="title">
+			<div class="navigation" id="nav">
+				<ul>
+					<li><a>添加字段</a></li>
+					<li><a>编辑字段</a></li>
+					<li><a>表单样式</a></li>
+				</ul>
+			</div>
+
+			<!--添加测试问题-->
+			<div id="add">
+				<ul>
+					<li data-type = "text">单行文字</li>
+					<li data-type = "textarea">多行文字</li>
+					<li data-type = "radio">单项选择</li>
+					<li data-type = "checkbox">多项选择</li>
+				</ul>
+			</div>
+
+			<!--编辑测试问题-->
+			<div id="edit">
+				<div>
+					<p>标题</p>
+					<input type="text" id="title" value="">
+				</div>
+				<div>
+					<p>默认值</p>
+					<input type="text" name="" id="single">
+					<textarea id="multiple"></textarea>
+					<div id="radios"></div>
+					<div id="checkboxs"></div>
+				</div>
+				<div id="">
+					<p>提示</p>
+					<textarea id="prompt"></textarea>	
+				</div>	
+			</div>
+
+			<!--保存表单-->
+			<a id = "save">保存表单</a>
+		</div>
+	</div>
+	<script src="js/goldData.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.content{
+	float: left;
+	width: 75%;
+	height: 600px;
+	border: 1px solid red;
+}
+.title{
+	float: right;
+	width: 20%;
+	height: 600px;
+	border: 1px solid red;
+}
+.navigation ul li{
+	display: inline-block;
+}
+
+#add li{
+	width: 40%;
+	margin-left: 3%;
+	display: inline-block;
+}
+#edit{
+	display: none;
+}
